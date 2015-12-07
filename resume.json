@@ -1,0 +1,291 @@
+{
+  "basics": {
+    "name": "Omar Lozada",
+    "label": "Worker on the web, self-taught full stack web developer with 5+ years of experience, occasionally speaker at many tech events in Perú and doer at all.",
+    "picture": "https://pbs.twimg.com/profile_images/434483180272250880/268ZmiiY.jpeg",
+    "email": "skeiter97@gmail.com",
+    "phone": "+51 966 139 662",
+    "website": "http://username.github.io",
+    "summary": "I am a web programmer, since 2008 I began to see much potential in computers and I decided to learn how computers works, from that point the first thing that I did was use Linux os as my primary Os, that blew up my brain.  few months later I entered at university and learned about software development, IT concepts, and many technologies. My university life was great, but sometimes, that classes weren't enough for me. I pass much hours front of a computer instead see people, I consider when you love what you do the time is just a word and simply flowing among us.",
+    "location": {
+      "address": "Urb. Las Dunas Mz. A Lt 21",
+      "postalCode": "Lam01",
+      "city": "Lambayeque",
+      "countryCode": "PE",
+      "region": "Lambayeque"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "skeiter9",
+        "url": "https://twitter.com/skeiter9"
+      },
+      {
+        "network": "github",
+        "username": "skeiter9",
+        "url": "https://github.com/skeiter9"
+      },
+      {
+        "network": "bitbucket",
+        "username": "skeiter9",
+        "url": "https://bitbucket.org/skeiter9"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Yetsu S.A.C",
+      "position": "CTO",
+      "website": "http://twitter.com/yetsuPe",
+      "startDate": "2013-06-12",
+      "endDate": "2015-08-10",
+      "summary": "I made many projects for my co-created company as CTO, I lead the team of software developement",
+      "highlights": [
+        "Development a web with eCommerce focus for XCOREISC",
+        "Enterprise software for CONSAMA.S.A.C.",
+        "I was the instructor of 2 courses for this company and sponsored by UNPRG."
+      ]
+    },
+    {
+      "company": "X COREISC",
+      "position": "President",
+      "website": "https://www.facebook.com/XCOREISC",
+      "startDate": "2015-05-19",
+      "endDate": "2015-05-23",
+      "summary": "President of organization with +80 members, X COREISC was a big event for UNPRG and Lambayeque city",
+      "highlights": [
+        "+500 attenders",
+        "First Event of APEISC(brand's owner) with online payments(paypal and credit cards)",
+        "New sub events created like battle of startups, ignites, hackaton, etc."
+      ]
+    },
+    {
+      "company": "APEISC",
+      "position": "UNPRG Represent (Delegado: fraterno & pleno)",
+      "website": "http://www.apeisc.org/",
+      "startDate": "2011-11-10",
+      "endDate": "2014-08-12",
+      "summary": "APEISC is an organization who cares the quality of education on system engineering and It careers involved around Peru, only receive two representative students for each university with the role pleno or fraterno.",
+      "highlights": [
+        "Delagado fraterno 2013 -2014",
+        "Delegado Pleno 2014"
+      ]
+    },
+    {
+      "company": "YETSU S.A.C. & UNPRG",
+      "position": "Teacher",
+      "website": "https://www.facebook.com/media/set/?set=a.163394703820870.1073741828.112843935542614&type=3",
+      "startDate": "2013-04-06",
+      "endDate": "2013-05-10",
+      "summary": "Course about web development realized at UNPRG ",
+      "highlights": [
+        "Syllabus https://github.com/YetsuPe/yetsu-Template/blob/v1.0/curso/Diplomado--Desarrollo-de-Aplicaciones-Web-Yetsu-UNPRG-2013.pdf",
+        "Photos: https://www.facebook.com/media/set/?set=a.163394703820870.1073741828.112843935542614&type=3"
+      ]
+    },
+    {
+      "company": "YETSU S.A.C. & UNPRG",
+      "position": "Teacher",
+      "website": "",
+      "startDate": "2013-11-02",
+      "endDate": "2013-12-08",
+      "summary": "Second course, this course had frontend technologies as main aim",
+      "highlights": [
+        "Examples and material https://github.com/YetsuPe"
+      ]
+    },
+    {
+      "company": "Mac Systems Group S.C.R.Lta.",
+      "position": "Junior Developer",
+      "website": "https://www.facebook.com/Mac-Systems-Group-SCRLta-168661576491011/",
+      "startDate": "2010-02-15",
+      "endDate": "2011-06-13",
+      "summary": "Team menber of software development department.",
+      "highlights": [
+        "First steps in real projects."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Startup Weekend",
+      "position": "Couch",
+      "website": "http://www.up.co/communities/peru/ica/startup-weekend/3763",
+      "startDate": "2014-09-19",
+      "endDate": "2014-09-21",
+      "summary": "Startup Weekends are weekend-long, hands-on experiences where entrepreneurs and aspiring entrepreneurs can find out if startup ideas are viable. On average, half of Startup Weekend’s attendees have technical or design backgrounds, the other half have business backgrounds.  Beginning with open mic pitches on Friday, attendees bring their best ideas and inspire others to join their team. Over Saturday and Sunday teams focus on customer development, validating their ideas, practicing LEAN Startup Methodologies and building a minimal viable product. On Sunday evening teams demo their prototypes and receive valuable feedback from a panel of experts.",
+      "highlights": []
+    },
+    {
+      "organization": "hack Space",
+      "position": "Teacher",
+      "website": "https://www.facebook.com/media/set/?set=a.1010950065581848.1073741857.854008687942654&type=3",
+      "startDate": "2015-06-06",
+      "endDate": "2015-06-20",
+      "summary": "Teach techniques for web development, we practiced much javascript.",
+      "highlights": []
+    },
+    {
+      "organization": "FLISOL 2013",
+      "position": "Speaker",
+      "website": "https://www.facebook.com/flisolLambayeque/photos/a.550858391631871.1073741826.176772925707088/550867084964335/?type=3&theater",
+      "startDate": "2013-05-03",
+      "endDate": "2013-05-03",
+      "summary": "I talked about mongo db and no-sql databases above all",
+      "highlights": []
+    },
+    {
+      "organization": "CADIS-UNPRG",
+      "position": "President",
+      "website": "https://www.facebook.com/CADIS.UNPRG",
+      "startDate": "2013-03-13",
+      "endDate": "2014-03-13",
+      "summary": "CADIS is a internal organization dedicated to investigation of many topics subjects for Ti/Software students",
+      "highlights": []
+    },
+    {
+      "organization": "UNASAM",
+      "position": "Speaker",
+      "website": "",
+      "startDate": "2013-11-06",
+      "endDate": "2013-11-07",
+      "summary": "I talked about html5 and its features, this event was realized during Engineering faculty anniversary of UNSAM",
+      "highlights": [
+        "Few photos: https://www.facebook.com/photo.php?fbid=690816484263805&set=a.462104847134971.110808.100000063796163&type=3&theater",
+        "Huaráz is a nice place."
+      ]
+    },
+    {
+      "organization": "USAT",
+      "position": "Speaker",
+      "website": "https://www.facebook.com/photo.php?fbid=521289761216479&set=a.462104847134971.110808.100000063796163&type=3&theater",
+      "startDate": "2013-11-23",
+      "endDate": "2013-11-26",
+      "summary": "Lecture about bootstrap framework and less preprocessor",
+      "highlights": []
+    },
+    {
+      "organization": "INTERSYS-UNPRG",
+      "position": "Instructor",
+      "website": "https://www.facebook.com/Intersys.unprg/photos/pb.237361496310516.-2207520000.1449485655./449464925100171/?type=3&theater",
+      "startDate": "2012-11-05",
+      "endDate": "2012-11-05",
+      "summary": "workshop \"creación de diapositivas con html5\"",
+      "highlights": []
+    },
+    {
+      "organization": "CADIS-UNPRG",
+      "position": "Teacher",
+      "website": "",
+      "startDate": "2012-07-02",
+      "endDate": "2012-07-28",
+      "summary": "course about html5 y css3",
+      "highlights": [
+        "few photos: https://www.facebook.com/photo.php?fbid=462105187134937&set=a.462104847134971.110808.100000063796163&type=3&theater"
+      ]
+    },
+    {
+      "organization": "FLISOL - ICA 2014",
+      "position": "SPEAKER",
+      "website": "",
+      "startDate": "2014-04-28",
+      "endDate": "2014-04-28",
+      "summary": "I talked about ruby and ruby on rails, and how to start with rvm.",
+      "highlights": [
+        "photos: https://www.facebook.com/devacademyla/photos/a.498644203569333.1073741856.316005858499836/498647610235659/?type=3&theater"
+      ]
+    },
+    {
+      "organization": "DevAcademy",
+      "position": "Guest host",
+      "website": "https://www.facebook.com/devacademyla/photos/pb.316005858499836.-2207520000.1449486341./645566912210394/?type=3&theater",
+      "startDate": "2015-04-22",
+      "endDate": "2015-04-22",
+      "summary": "\"javascript para todo\"",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional Pedro Ruíz Gallo",
+      "area": "Ingeniería de Sistemas",
+      "studyType": "4 year",
+      "startDate": "2009-04-12",
+      "endDate": "2013-05-20",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Actor",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "git",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "node.js",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Speaker",
+      "level": "intermediate",
+      "keywords": []
+    },
+    {
+      "name": "test development",
+      "level": "intermediate",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "intermediate level"
+    },
+    {
+      "language": "spanish",
+      "fluency": "native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web development",
+      "keywords": [
+        "es6",
+        "react",
+        "angular",
+        "node.js",
+        "mongo db"
+      ]
+    },
+    {
+      "name": "vegan life",
+      "keywords": [
+        "healty life"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "CV web version",
+      "reference": "http://username.github.io"
+    }
+  ]
+}
