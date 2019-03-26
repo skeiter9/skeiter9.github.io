@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Omar Lozada",
-    "label": "Worker on the web, self-taught full stack web developer with 5+ years of experience, occasionally speaker at many tech events in Perú and doer at all.",
-    "picture": "https://pbs.twimg.com/profile_images/434483180272250880/268ZmiiY.jpeg",
+    "label": "Worker on the web, self-taught full stack web developer with 5+ years of experience, occasionally speaker at tech events in Perú and doer at all.",
+    "picture": "https://media.licdn.com/dms/image/C4D03AQEBsxGg57VoyA/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=XydaF2Mp5lvVxYrm0vG6Zexo_63akvULt24RFW3TGHk",
     "email": "skeiter97@gmail.com",
-    "phone": "+51 966 139 662",
+    "phone": "+51 991 363 083",
     "website": "http://skeiter9.github.io",
-    "summary": "I am a web programmer, since 2008 I began to see much potential in computers and I decided to learn how computers works, from that point the first thing that I did was use Linux os as my primary Os, that blew up my brain.  few months later I entered at university and learned about software development, IT concepts, and many technologies. My university life was great, but sometimes, that classes weren't enough for me. I pass much hours front of a computer instead see people, I consider when you love what you do the time is just a word and simply flowing among us.",
+    "summary": "Hello, \n Let me introduce myself, my name is Omar. Currently, I'm a remote working Web Developer for a company based out of Dallas/ Fort Worth, USA, called Velocis. I specialize in JavaScript, particularly Full Stack Developer with Node.js and Ruby on Rails. The position I obtain with this company has helped me develop many apps and websites using edge technologies such as: Ionic 3/4, Angular, React, Firebase, Node, MongoDb, etc. Before this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. \n Now I'm 27 and currently located in Chiang Mai, Thailand. For any further questions about my credentials, I'm available for video calls and any emails about my skills, personality, and references.",
     "location": {
-      "address": "Urb. Las Dunas Mz. A Lt 21",
-      "postalCode": "Lam01",
-      "city": "Lambayeque",
+      "address": "Moises Valiente 335",
+      "postalCode": "14011",
+      "city": "Chiclayo",
       "countryCode": "PE",
       "region": "Lambayeque"
     },
@@ -29,17 +29,36 @@
         "network": "bitbucket",
         "username": "skeiter9",
         "url": "https://bitbucket.org/skeiter9"
+      },
+      {
+        "network": "linkedin",
+        "username": "skeiter9",
+        "url": "https://www.linkedin.com/in/skeiter9"
       }
     ]
   },
   "work": [
+    {
+      "company": "Velocis LLC",
+      "position": "JS Lead",
+      "website": "http://velocis.us",
+      "startDate": "2016-02-04",
+      "endDate": "2019-02-18",
+      "summary": "Full-time remote job, web developer, receive tasks/projects through a third party company and complete in a timely manner.",
+      "highlights": [
+        "Skyrise http://skyriseapp.com/ app to connect entire building and small companies within to help communicate on a single platform if needed.",
+        "Aldea http://aldeaapp.com/: app collaborated with skyrise, but used for residences and staff for apartment buildings.",
+        "Student Success Academy https://studentsuccess.co/: a platform to help high school students chose a career in their final years.",
+        "Nomadic http://nomadic-app.co/: app to help link and connect van travelers."
+      ]
+    },
     {
       "company": "Yetsu S.A.C",
       "position": "CTO",
       "website": "http://twitter.com/yetsuPe",
       "startDate": "2013-06-12",
       "endDate": "2015-08-10",
-      "summary": "I made many projects for my co-created company as CTO, I lead the team of software developement",
+      "summary": "Co Founder & CTO of Yetsu S.A.C. Our agency helped develop websites for clients. The main focus and objection were to create platforms for clients to their satisfaction. With the diversity of web development from restaurants, hotels, and marketing facebook campaigns for two companies, our agency created a vast of platforms.",
       "highlights": [
         "Development a web with eCommerce focus for XCOREISC",
         "Enterprise software for CONSAMA.S.A.C.",
@@ -52,7 +71,7 @@
       "website": "https://www.facebook.com/XCOREISC",
       "startDate": "2015-05-19",
       "endDate": "2015-05-23",
-      "summary": "President of organization with +80 members, X COREISC was a big event for UNPRG and Lambayeque city",
+      "summary": "Led a large team composed of more than 60 persons for a week-long conference called COREISC, a tech event for computer-science enthusiasts in the north-region of Peru. \n Cheif and team leader that organized the people into 5 groups: marketing (social network), sales (promote and sale the events and tickets), protocol (conference usher, event coordinator, personal assistant), IT (build the website for the conference to purchase tickets on), legal (taxes, legal documents for the conference, and official/legal invitations).",
       "highlights": [
         "+500 attenders",
         "First Event of APEISC(brand's owner) with online payments(paypal and credit cards)",
@@ -61,11 +80,11 @@
     },
     {
       "company": "APEISC",
-      "position": "UNPRG Represent (Delegado: fraterno & pleno)",
+      "position": "UNPRG Represent (Student Representative)",
       "website": "http://www.apeisc.org/",
       "startDate": "2011-11-10",
       "endDate": "2014-08-12",
-      "summary": "APEISC is an organization who cares the quality of education on system engineering and It careers involved around Peru, only receive two representative students for each university with the role pleno or fraterno.",
+      "summary": "APEISC (currently known as APECIT), is the largest and official community for all students of Software Engineering and computer-science in Peru. Once a year an immense amount of Universities from around the country would choose two students to represent them. \n This organization was given certain responsibilities to contribute to the computer science community in the country and help promote events and activities to encourage college students to keep growing up in their tech careers.",
       "highlights": [
         "Delagado fraterno 2013 -2014",
         "Delegado Pleno 2014"
@@ -100,7 +119,7 @@
       "website": "https://www.facebook.com/Mac-Systems-Group-SCRLta-168661576491011/",
       "startDate": "2010-02-15",
       "endDate": "2011-06-13",
-      "summary": "Team menber of software development department.",
+      "summary": "Junior developer for Mac System Group, a local company in Lambayeque.",
       "highlights": [
         "First steps in real projects."
       ]
@@ -122,7 +141,7 @@
       "website": "https://www.facebook.com/media/set/?set=a.1010950065581848.1073741857.854008687942654&type=3",
       "startDate": "2015-06-06",
       "endDate": "2015-06-20",
-      "summary": "Teach techniques for web development, we practiced much javascript.",
+      "summary": "Taught the course, \"Web Fundamentals and Javascript for Everyone\" at University Pedro Ruiz Gallo as a programming teacher for half a semester.",
       "highlights": []
     },
     {
@@ -131,7 +150,7 @@
       "website": "https://www.facebook.com/flisolLambayeque/photos/a.550858391631871.1073741826.176772925707088/550867084964335/?type=3&theater",
       "startDate": "2013-05-03",
       "endDate": "2013-05-03",
-      "summary": "I talked about mongo db and no-sql databases above all",
+      "summary": "Public speaker invitation for the Flisol Conference, to lecture about MongoDB and no-sql databases.",
       "highlights": []
     },
     {
@@ -210,7 +229,7 @@
       "website": "https://www.facebook.com/startupchiclayo/",
       "startDate": "2014-02-20",
       "endDate": "2014-02-21",
-      "summary": "Tech event for entrepreneurs, I supported teams with their apps",
+      "summary": "Advisor for entrepreneurs to take the proper steps towards building their business. I would guide the clients with support teams to help develop their apps and companies. ",
       "highlights": []
     }
   ],
@@ -229,18 +248,13 @@
   "publications": [],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Frontend",
       "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
         "Javascript"
       ]
-    },
-    {
-      "name": "Actor",
-      "level": "",
-      "keywords": []
     },
     {
       "name": "git",
@@ -266,7 +280,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "intermediate level"
+      "fluency": "fluent speaker"
     },
     {
       "language": "spanish",
@@ -281,7 +295,12 @@
         "react",
         "angular",
         "node.js",
-        "mongo db"
+        "mongo db",
+        "firebase",
+        "ionic",
+        "ruby on rails",
+        "Redux",
+        "MongoDB"
       ]
     },
     {
