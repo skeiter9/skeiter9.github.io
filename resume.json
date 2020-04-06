@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Omar Lozada",
-    "label": "Worker on the web, self-taught full stack web developer with 5+ years of experience, occasionally speaker at tech events in Perú and doer at all.",
+    "label": "Worker on the web, full stack web developer with 5+ years of experience, occasionally speaker at tech events in Perú and doer at all.",
     "picture": "https://media.licdn.com/dms/image/C4D03AQEBsxGg57VoyA/profile-displayphoto-shrink_200_200/0?e=1559174400&v=beta&t=XydaF2Mp5lvVxYrm0vG6Zexo_63akvULt24RFW3TGHk",
     "email": "skeiter97@gmail.com",
     "phone": "+51 991 363 083",
     "website": "http://skeiter9.github.io",
-    "summary": "Hello, \n Let me introduce myself, my name is Omar. Currently, I'm a remote working Web Developer for a company based out of Dallas/ Fort Worth, USA, called Velocis. I specialize in JavaScript, particularly Full Stack Developer with Node.js and Ruby on Rails. The position I obtain with this company has helped me develop many apps and websites using edge technologies such as: Ionic 3/4, Angular, React, Firebase, Node, MongoDb, etc. Before this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. \n Now I'm 27 and currently located in Chiang Mai, Thailand. For any further questions about my credentials, I'm available for video calls and any emails about my skills, personality, and references.",
+    "summary": "Hello, \n Let me introduce myself, my name is Omar. Currently, I'm a remote web Developer for a company based out of Dallas/ Fort Worth, USA, called Velocis. I specialize in JavaScript, particularly Full Stack Developer with Node.js and Ruby on Rails. The position I obtain with this company has helped me develop many apps and websites using edge technologies such as: Ionic 3/4, Angular, React, React Native, Firebase, Node, MongoDb, etc. Before this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. \n I'm 28 and currently located in Chiclayo, Peru. For any further questions about my credentials, I'm available for video calls and any emails about my skills, personality, and references.",
     "location": {
       "address": "Moises Valiente 335",
       "postalCode": "14011",
@@ -19,6 +19,11 @@
         "network": "Twitter",
         "username": "skeiter9",
         "url": "https://twitter.com/skeiter9"
+      },
+      {
+        "network": "instagram",
+        "username": "skeiter9",
+        "url": "https://instagram.com/skeiter9"
       },
       {
         "network": "github",
@@ -43,7 +48,7 @@
       "position": "JS Lead",
       "website": "http://velocis.us",
       "startDate": "2016-02-04",
-      "endDate": "2019-03-18",
+      "endDate": "2020-03-18",
       "summary": "Full-time remote job, web developer, receive tasks/projects through a third party company and complete in a timely manner.",
       "highlights": [
         "Skyrise http://skyriseapp.com/ app to connect entire building and small companies within to help communicate on a single platform if needed.",
@@ -128,7 +133,7 @@
   "volunteer": [
     {
       "organization": "Startup Weekend",
-      "position": "Couch",
+      "position": "Coach",
       "website": "http://www.up.co/communities/peru/ica/startup-weekend/3763",
       "startDate": "2014-09-19",
       "endDate": "2014-09-21",
@@ -225,7 +230,7 @@
     },
     {
       "organization": "Startup CIX",
-      "position": "Couch",
+      "position": "Coach",
       "website": "https://www.facebook.com/startupchiclayo/",
       "startDate": "2014-02-20",
       "endDate": "2014-02-21",

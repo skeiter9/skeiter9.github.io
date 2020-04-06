@@ -4,6 +4,7 @@
     "jsonresume-theme-kendall": "^0.1.19",
     "jsonresume-theme-kwan": "0.0.2",
     "jsonresume-theme-modern": "0.0.18",
-    "jsonresume-theme-stackoverflow": "^1.4.0"
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "resume-cli": "^1.2.7"
   }
 }
