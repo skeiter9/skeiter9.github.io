@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "resume export resume.pdf --theme stackoverflow"
+  },
   "dependencies": {
     "jsonresume-theme-elegant": "^1.12.1",
     "jsonresume-theme-kendall": "^0.1.19",
