@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "resume export resume.pdf --theme stackoverflow"
+    "build": "resume export resume.pdf --theme stackoverflow",
+    "build-web": "resume export index.html --theme stackoverflow"
   },
   "dependencies": {
     "jsonresume-theme-elegant": "^1.12.1",

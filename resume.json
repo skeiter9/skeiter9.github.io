@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Omar Lozada",
-    "label": "Worker on the web, full stack web developer with 5+ years of experience, occasionally speaker at tech events in Perú and doer at all.",
+    "label": "Full stack developer with 8+ years of experience, occasionally speaker at tech events in Peru and doer at all.",
     "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQEBsxGg57VoyA/profile-displayphoto-shrink_800_800/0/1553336864791?e=1632355200&v=beta&t=AhDPr4PnQCMYKaB2aLc3Zf0UjhVS7RhJcq2X-TZr8EA",
     "email": "skeiter97@gmail.com",
     "phone": "+51 991 363 083",
     "website": "http://skeiter9.github.io",
-    "summary": "Hello, \n Let me introduce myself, my name is Omar. Currently, I'm a remote web Developer for a company based out of Warsaw, Poland, called ITCraftship. I specialize in JavaScript, particularly Full Stack Developer with Node.js and Ruby on Rails. The position I obtain with this company has helped me develop many apps and websites using edge technologies such as: Ionic, Tailwindcss, Angular, React, React Native, Flutter, Firebase, Node, MongoDb, etc. Before this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. \n I'm 29 and currently located in Chiclayo, Peru. For any further questions about my credentials, I'm available for video calls and any emails about my skills, personality, and references.",
+    "summary": "Hello, \n Let me introduce myself, my name is Omar. Currently, I'm a software Developer. I specialize in JavaScript, particularly Full Stack Developer with Node.js and Ruby on Rails. The position I obtain with this company has helped me develop many apps and websites using edge technologies such as: Ionic, Tailwindcss, Angular, React, React Native, Flutter, Firebase, Node, MongoDb, etc. Before this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. \n I'm 29 and currently located in Chiclayo, Peru. For any further questions about my credentials, I'm available for video calls and any emails about my skills, personality, and references.",
     "location": {
-      "address": "Moises Valiente 335",
-      "postalCode": "14011",
-      "city": "Chiclayo",
-      "countryCode": "PE",
-      "region": "Lambayeque"
+      "address": "1458 Gaylord st. Apt. 5",
+      "postalCode": "80206",
+      "city": "Denver",
+      "countryCode": "US",
+      "region": "Colorado"
     },
     "profiles": [
       {
@@ -43,6 +43,18 @@
     ]
   },
   "work": [
+    {
+      "company": "Able",
+      "position": "Full-Stack Software Engineer",
+      "website": "https://able.co/",
+      "startDate": "2021-09-10",
+      "endDate": "2022-05-23",
+      "summary": "Full-time remote job as a Full-Stack Software Engineer, web and mobile projects",
+      "highlights": [
+        "https://10east.co/ build a platform for a community of private investors",
+        "https://updater.com/ upgrade of the sales platform"
+      ]
+    },
     {
       "company": "ITCRAFTSHIP SP. Z O.O. (Poland)",
       "position": "Full-Stack Software Engineer",
