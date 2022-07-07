@@ -1,1586 +1,823 @@
 <!doctype html>
 <html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>Omar Lozada</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <style>
-  /********************************************
-* 	reset from
-* 	http://meyerweb.com/eric/tools/css/reset/
-*******************************************/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Omar Lozada</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
 }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
 
 body {
-    line-height: 1;
-}
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #f8f8f8;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
 
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-/****************
-*	COMMONS
-****************/
-
-body,
-html {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 13px;
-    color: #40484f;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 1.46153846;
-    text-align: left;
-    -webkit-text-size-adjust: 100%;
-}
-
-p {
-    display: block;
-    margin-bottom: 1.3em;
-}
-
-a {
-    color: #0095ff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0c65a5;
-    text-decoration: underline;
-}
-
-ul {
-    margin-top: 1rem;
-}
-
-li {
-    list-style-type: square;
-    list-style-position: outside;
-    margin-left: 1.3em;
-}
-
-.highlights>li>p {
-    margin-bottom: 0.5em;
-}
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 0; }
 
 h1 {
-    font-size: 2rem;
-}
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px; }
 
 h2 {
-    font-size: 1.67rem;
-}
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px; }
 
 h3 {
-    font-size: 1.27rem;
-}
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
 
-em {
-    color: #757575;
-}
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 11px; }
 
 blockquote {
-    margin-bottom: 1em;
-}
-
-strong {
-    font-weight: 700;
-}
-
-
-/* main container */
-
-#resume {
-    padding: 1rem;
-    margin-top: 2rem;
-}
-
-
-/* every section wrapper */
-
-.section {
-    margin-bottom: 1rem;
-}
-
-section .location {
-    margin-right: .5em;
-    color: #606d76;
-    font-weight: 700;
-}
-
-#contact {
-    margin-top: .5rem;
-}
-
-#profiles .item {
-    padding: 0;
-}
-
-#header>#profiles,
-#header>#contact,
-#skills,
-#languages,
-#interests {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
-}
-
-#header>div {
-    line-height: 1.5;
-}
-
-#header>div>div {
-    margin-right: 1.2em;
-}
-
-#header h1.name {
-    font-size: 2.8rem;
-    font-weight: 100;
-    line-height: 100%;
-}
-
-#header h2.label {
-    color: #202931;
-    font-size: 1.47rem;
-    font-weight: 300;
-}
-
-#header .picture {
-    width: 11em;
-    float: right;
-    border-radius: 4px;
-}
-
-.main-summary {
-    background: #f1f8ff;
-    padding: 1.2em 1em;
-    margin-top: 1rem;
-}
-
-.main-summary p {
-    margin: .15em 0 0;
-}
-
-h2.section-title {
-    display: inline-block;
-    background: #fff;
-    padding: 0 1em 0.3em 0;
-    color: #ff6d1f;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
-    font-size: .9rem;
-}
-
-.section>header {
-    position: relative;
-}
-
-.fa {
-    margin-right: 0.25em;
-}
-
-.section>header::after {
-    position: absolute;
-    left: 0;
-    top: .7em;
-    height: 1px;
-    background: #ccc;
-    content: "";
-    width: 100%;
-    z-index: -100;
-    display: block;
-}
-
-.section.main-summary>section {
-    margin: 0;
-}
-
-.section>section>header {
-    font-size: 1.38rem;
-    position: relative;
-    margin-top: .7em;
-}
-
-.section>section>header:first-of-type {
-    margin: 0;
-}
-
-.section>section>header .space-left {
-    position: absolute;
-    left: -1.56rem;
-    top: 5px;
-    color: #aaa;
-    line-height: 1;
-    opacity: 0;
-}
-
-.position,
-.company,
-.organization,
-.institution,
-.date,
-.area,
-.studyType,
-.title,
-.awarder {
-    display: inline;
-}
-
-.position,
-.studyType,
-.area,
-.title,
-.language,
-.name {
-    font-weight: 600;
-}
-
-.company::before,
-.institution::before,
-.organization::before,
-.awarder::before {
-    content: "at "
-}
-
-.company,
-.institution,
-.organization,
-.awarder {
-    color: #606d76;
-    font-weight: 400;
-}
-
-.section header .date {
-    font-size: 1rem;
-    display: inline-table;
-    padding: .1em 0;
-    font-weight: 600;
-}
-
-ul.keywords,
-ul.courses {
-    margin-top: .5em;
-}
-
-ul.keywords li,
-ul.courses li {
-    display: inline-block;
-    margin: 2px 2px 2px 0;
-    padding: 4px 5px 5px;
-    font-size: .9rem;
-    line-height: 1;
-    text-transform: lowercase;
-    color: #3e6d8e;
-    background-color: #dfeaf1;
-    border: 0 solid #dfeaf1;
-    white-space: nowrap;
-}
-
-ul.keywords li:hover,
-ul.courses li:hover {
-    background: #dfeaf0;
-}
-
-.item {
-    padding: .5em 0;
-}
-
-.gpa {
-    padding-bottom: .5em;
-}
-
-.fa.social {
-    font-size: 1.1em;
-}
-
-
-/* Social Media Brand Colors */
-
-.google-plus {
-    color: #dd4b39;
-}
-
-.tumblr {
-    color: #32506d;
-}
-
-.foursquare {
-    color: #0072b1;
-}
-
-.facebook {
-    color: #3b5998;
-}
-
-.linkedin {
-    color: #007bb6;
-}
-
-.pinterest {
-    color: #cb2027;
-}
-
-.dribbble {
-    color: #ea4c89;
-}
-
-.instagram {
-    color: #517fa4;
-}
-
-.twitter {
-    color: #00aced;
-}
-
-.soundcloud {
-    color: #ff3a00;
-}
-
-.wordpress {
-    color: #21759b;
-}
-
-.youtube {
-    color: #bb0000;
-}
-
-.github {
-    color: #171515;
-}
-
-.stack-overflow {
-    color: #828386;
-    position: relative;
-}
-
-.flickr {
-    color: #ff0084;
-}
-
-.stack-overflow::after {
-    position: absolute;
-    left: 0;
-    content: '\f16c';
-    color: #f68a1f;
-    overflow: hidden;
-    height: 100%;
-}
-
-.telegram {
-    color: #2291c3;
-}
-
-#languages .item,
-#skills .item,
-#interests .item {
-    width: 15em;
-    padding: 0 .5em .5em 0;
-    border-bottom: none;
-}
-
-#skills .item {
-    width: 16em;
-}
-
-#skills .item .keywords {
-    width: 15em;
-}
-
-
-/* Skill chart */
-
-.level {
-    margin-bottom: .5em;
-}
-
-.level .bar {
-    border: 1px solid #ddd;
-    display: block;
-    width: 10em;
-    height: 5px;
-    position: relative;
-}
-
-.level .bar::after {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    background: black;
-    height: 5px;
-}
-
-.level.beginner .bar::after {
-    background: #EB5F51;
-    width: 2.5em;
-}
-
-.level.intermediate .bar::after {
-    background: #ffdf1f;
-    width: 5em;
-}
-
-.level.advanced .bar::after,
-.level.fluent .bar::after {
-    background: #5CB85C;
-    width: 7.5em;
-}
-
-.level.master .bar::after,
-.level.native.speaker .bar::after {
-    background: #59C596;
-    width: 10em;
-}
-
-#references .item {
-    padding-left: .5em;
-    border-left: 5px solid #ff6d1f;
-}
-
-.toggle-item {
-  visibility: hidden;
-}
-
-/******************
-*	HELPER CLASSES
-******************/
-
-.clear::after {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 28px;
+         column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+@page {
+  size: A4; }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #56817A; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817A;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
+  .page:after {
     content: "";
     display: table;
-    clear: both;
-}
+    clear: both; }
 
-.display {
-    display: block;
-    opacity: 1 !important;
-}
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word; }
 
-.margin1 {
-    margin-bottom: .5rem;
-}
+.right-column {
+  width: auto;
+  overflow: hidden; }
 
-
-/****************
-*		TABLET
-****************/
-
-@media screen and (min-width: 602px) {
-    #resume {
-        width: 80%;
-        margin: 0 auto;
-    }
-}
-
-
-/****************
-*		LAPTOP
-****************/
-
-@media screen and (min-width: 1025px) {
-    li {
-        margin-left: 1.5em;
-    }
-    #resume {
-        width: 820px;
-        margin: 2rem auto;      
-    }
-    .section>section>header .space-left {
-        opacity: 1;
-        cursor: pointer;
-    }
-    .section>section {
-        margin-left: 1.67rem;
-    }
-    .toggle-item {
-        transform: translate(-9999px);
-    }
-    .toggle-item+label {
-        display: block;
-        margin-top: -16px;
-    }
-    .toggle-item:checked+label:after {
-        content: '\f0d7';
-    }
-    .toggle-item+label:after {
-        float: left;
-        cursor: pointer;
-        margin-left: -20px;
-        color: #aaa;
-        font-size: 16px;
-        content: '\f0da';
-        font-family: Fontawesome;
-    }
-    .toggle-item~.item {
-        height: 0;
-        opacity: 0;
-    }
-    .toggle-item:checked~.item {
-        height: auto;
-        opacity: 1;
-        transition: all .5s linear;
-    }
-    .company::before,
-    .institution::before,
-    .organization::before,
-    .awarder::before {
-        content: "| ";
-    }
-    .header-left {
-        float: left;
-        width: 70%;
-        word-break: normal;
-    }
-    .section header .date {
-        float: right;
-        padding: .2em;
-    }
-    .display {
-        display: none;
-    }
-    .display:not(.none) {
-        display: block;
-    }
-}
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
 
 @media print {
-    #resume {
-        margin: 0;
-        padding: 0;
-        -ms-word-wrap: break-word;
-        word-wrap: break-word;
-        line-height: 1.3;
-        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
-    }
-    @page {
-        margin: 1cm 1.4cm;
-    }
-    .item-count {
-        display: none;
-    }
-    .company::before,
-    .institution::before,
-    .organization::before,
-    .awarder::before {
-        content: "at ";
-    }
-    .main-summary {
-        padding: 2rem 0;
-    }
-    .section {
-        margin: .8rem 0;
-        padding: 0;
-    }
-    .section header {
-        padding-bottom: .15rem;
-    }
-    .section .location {
-        padding-bottom: .15rem;
-    }
-    .stack-overflow::after {
-        content: "";
-    }
-    .fa.social {
-        color: #828386;
-    }
-    ul {
-        margin-top: .4em;
-    }
-    ul,
-    li {
-        padding: 0;
-    }
-    ul.keywords li,
-    ul.courses li {
-        margin: 0;
-        padding: 0;
-        font-size: .8rem;
-        text-transform: lowercase;
-    }
-    ul.keywords li::after,
-    ul.courses li::after {
-        padding: 0 0 0 .1rem;
-        content: " |";
-    }
-    ul.keywords::before,
-    ul.courses::before {
-        font-size: .8rem;
-        font-weight: 600;
-    }
-    ul.keywords::before {
-        content: "Skills acquired: ";
-    }
-    #skills .keywords::before {
-        content: '';
-    }
-    .section p {
-        margin: 0;
-        padding: 0;
-    }
-    ul.courses::before {
-        content: "Major courses: ";
-    }
-    ul.keywords li:last-of-type::after,
-    ul.courses li:last-of-type::after {
-        content: "";
-    }
-    .level em {
-        font-style: normal;
-        padding: .1em 0;
-    }
-    .level .bar {
-        display: none;
-    }
-    #profiles .item {
-        padding: 0;
-    }
-    .item.display {
-        display: block;
-        opacity: 1 !important;
-    }
-}
+  body {
+    margin: 0; }
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
 
-  </style>
-  
-  </head>
-  <body>
-  
-  <div id="resume">
-    	<header id="header" class="clear">
-    		<img class="picture" src="https://media-exp1.licdn.com/dms/image/C4D03AQEBsxGg57VoyA/profile-displayphoto-shrink_200_200/0?e&#x3D;1591833600&amp;v&#x3D;beta&amp;t&#x3D;UB41f7PsgShnzIhsEHqSRSq-sTlLNCcZ3LjXOvsVwUk" alt="Omar Lozada" />
-    		<div class="middle">
-    			<h1 class="name">Omar Lozada</h1>
-    			<h2 class="label">Worker on the web, full stack web developer with 5+ years of experience, occasionally speaker at tech events in Perú and doer at all.</h2>
-    		</div>
-    		
-    		<span class="location">
-    			<span class="address">Moises Valiente 335,</span> 
-    			<span class="postalCode">14011,</span> 
-    			<span class="city">Chiclayo,</span> 
-    			<span class="region">Lambayeque</span> 
-    			<span class="countryCode">PE</span> 
-    		</span>
-    		
-    
-    		<div id="contact">
-    			<div class="website">
-    				<span class="fa fa-external-link"></span>
-    				<a target="_blank" target="_blank" href="http://skeiter9.github.io">http://skeiter9.github.io</a>
-    			</div>
-    			<div class="email">
-    				<span class="fa fa-envelope-o"></span>
-    				<a href="mailto:skeiter97@gmail.com">skeiter97@gmail.com</a>
-    			</div>
-    			<div class="phone">
-    				<span class="fa fa-mobile"></span>
-    				<a href="tel:+51 991 363 083">+51 991 363 083</a>
-    			</div>
-    		</div>
-    
-    		<div id="profiles">
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-twitter twitter social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://twitter.com/skeiter9">skeiter9</a>
-    					</span> 
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-instagram instagram social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://instagram.com/skeiter9">skeiter9</a>
-    					</span> 
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-github github social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://github.com/skeiter9">skeiter9</a>
-    					</span> 
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-bitbucket bitbucket social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://bitbucket.org/skeiter9">skeiter9</a>
-    					</span> 
-    				</div>
-    			</div>
-    			<div class="item">
-    				<div class="username">
-    					<span class="fa fa-linkedin linkedin social"></span>
-    					<span class="url">
-    						<a target="_blank" href="https://www.linkedin.com/in/skeiter9">skeiter9</a>
-    					</span> 
-    				</div>
-    			</div>
-    		</div>
-    	</header>
-    
-    	<section class="section main-summary">
-    		<section>
-    			<div><p>Hello, </p><p> Let me introduce myself, my name is Omar. Currently, I'm a remote web Developer for a company based out of Dallas/ Fort Worth, USA, called Velocis. I specialize in JavaScript, particularly Full Stack Developer with Node.js and Ruby on Rails. The position I obtain with this company has helped me develop many apps and websites using edge technologies such as: Ionic 3/4, Angular, React, React Native, Firebase, Node, MongoDb, etc. Before this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. </p><p> I'm 28 and currently located in Chiclayo, Peru. For any further questions about my credentials, I'm available for video calls and any emails about my skills, personality, and references.</p></div>
-    		</section>
-    	</section>
-    
-    <section class="section margin1">
-    	<header>
-    		<h2 class='section-title'>Skills</h2>
-    	</header>
-    	<section id="skills">
-    		<div class="item">
-    			<h3 class="name">
-    				Frontend
-    			</h3>
-    			 
-    			<div class="level master">
-    				<em>Master</em>
-    				<div class="bar"></div>
-    			</div>
-    			<ul class="keywords">
-    				<li>HTML</li>
-    				<li>CSS</li>
-    				<li>Javascript</li>
-    			</ul>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				git
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				node.js
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				Speaker
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    		<div class="item">
-    			<h3 class="name">
-    				test development
-    			</h3>
-    			 
-    			<div class="level intermediate">
-    				<em>intermediate</em>
-    				<div class="bar"></div>
-    			</div>
-    		</div>
-    	</section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Work Experience <span class="item-count">(7)</span></h2>
-      </header>
-    
-      <section id="work">
-        <section class="work-item">
-    
-            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
-            <label for="work-item-0"></label>
-    
-    			<header>
-    				<div class="position">JS Lead</div>
-    				<div class="company">Velocis LLC</div>
-    				<div class="date">
-    				  <span class="startDate">February 2016</span> 
-    					<span class="endDate">- March 2020</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="http://velocis.us">http://velocis.us</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Full-time remote job, web developer, receive tasks/projects through a third party company and complete in a timely manner.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Skyrise http://skyriseapp.com/ app to connect entire building and small companies within to help communicate on a single platform if needed.</p></li>
-                <li><p>Aldea http://aldeaapp.com/: app collaborated with skyrise, but used for residences and staff for apartment buildings.</p></li>
-                <li><p>Student Success Academy https://studentsuccess.co/: a platform to help high school students chose a career in their final years.</p></li>
-                <li><p>Nomadic http://nomadic-app.co/: app to help link and connect van travelers.</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-1" type="checkbox" class="toggle-item" />
-            <label for="work-item-1"></label>
-    
-    			<header>
-    				<div class="position">CTO</div>
-    				<div class="company">Yetsu S.A.C</div>
-    				<div class="date">
-    				  <span class="startDate">June 2013</span> 
-    					<span class="endDate">- August 2015</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="http://twitter.com/yetsuPe">http://twitter.com/yetsuPe</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Co Founder & CTO of Yetsu S.A.C. Our agency helped develop websites for clients. The main focus and objection were to create platforms for clients to their satisfaction. With the diversity of web development from restaurants, hotels, and marketing facebook campaigns for two companies, our agency created a vast of platforms.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Development a web with eCommerce focus for XCOREISC</p></li>
-                <li><p>Enterprise software for CONSAMA.S.A.C.</p></li>
-                <li><p>I was the instructor of 2 courses for this company and sponsored by UNPRG.</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-2" type="checkbox" class="toggle-item" />
-            <label for="work-item-2"></label>
-    
-    			<header>
-    				<div class="position">President</div>
-    				<div class="company">X COREISC</div>
-    				<div class="date">
-    				  <span class="startDate">May 2015</span> 
-    					<span class="endDate">- May 2015</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://www.facebook.com/XCOREISC">https://www.facebook.com/XCOREISC</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Led a large team composed of more than 60 persons for a week-long conference called COREISC, a tech event for computer-science enthusiasts in the north-region of Peru. </p><p> Cheif and team leader that organized the people into 5 groups: marketing (social network), sales (promote and sale the events and tickets), protocol (conference usher, event coordinator, personal assistant), IT (build the website for the conference to purchase tickets on), legal (taxes, legal documents for the conference, and official/legal invitations).</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>+500 attenders</p></li>
-                <li><p>First Event of APEISC(brand's owner) with online payments(paypal and credit cards)</p></li>
-                <li><p>New sub events created like battle of startups, ignites, hackaton, etc.</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-3" type="checkbox" class="toggle-item" />
-            <label for="work-item-3"></label>
-    
-    			<header>
-    				<div class="position">UNPRG Represent (Student Representative)</div>
-    				<div class="company">APEISC</div>
-    				<div class="date">
-    				  <span class="startDate">November 2011</span> 
-    					<span class="endDate">- August 2014</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="http://www.apeisc.org/">http://www.apeisc.org/</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>APEISC (currently known as APECIT), is the largest and official community for all students of Software Engineering and computer-science in Peru. Once a year an immense amount of Universities from around the country would choose two students to represent them. </p><p> This organization was given certain responsibilities to contribute to the computer science community in the country and help promote events and activities to encourage college students to keep growing up in their tech careers.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Delagado fraterno 2013 -2014</p></li>
-                <li><p>Delegado Pleno 2014</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-4" type="checkbox" class="toggle-item" />
-            <label for="work-item-4"></label>
-    
-    			<header>
-    				<div class="position">Teacher</div>
-    				<div class="company">YETSU S.A.C. &amp; UNPRG</div>
-    				<div class="date">
-    				  <span class="startDate">April 2013</span> 
-    					<span class="endDate">- May 2013</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://www.facebook.com/media/set/?set&#x3D;a.163394703820870.1073741828.112843935542614&amp;type&#x3D;3">https://www.facebook.com/media/set/?set&#x3D;a.163394703820870.1073741828.112843935542614&amp;type&#x3D;3</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Course about web development realized at UNPRG </p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Syllabus https://github.com/YetsuPe/yetsu-Template/blob/v1.0/curso/Diplomado--Desarrollo-de-Aplicaciones-Web-Yetsu-UNPRG-2013.pdf</p></li>
-                <li><p>Photos: https://www.facebook.com/media/set/?set=a.163394703820870.1073741828.112843935542614&type=3</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-5" type="checkbox" class="toggle-item" />
-            <label for="work-item-5"></label>
-    
-    			<header>
-    				<div class="position">Teacher</div>
-    				<div class="company">YETSU S.A.C. &amp; UNPRG</div>
-    				<div class="date">
-    				  <span class="startDate">November 2013</span> 
-    					<span class="endDate">- December 2013</span> 
-    				</div>
-    			</header>
-    			
-         	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Second course, this course had frontend technologies as main aim</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>Examples and material https://github.com/YetsuPe</p></li>
-            </ul>
-        	</div>
-        </section>
-        <section class="work-item">
-    
-            <input id="work-item-6" type="checkbox" class="toggle-item" />
-            <label for="work-item-6"></label>
-    
-    			<header>
-    				<div class="position">Junior Developer</div>
-    				<div class="company">Mac Systems Group S.C.R.Lta.</div>
-    				<div class="date">
-    				  <span class="startDate">February 2010</span> 
-    					<span class="endDate">- June 2011</span> 
-    				</div>
-    			</header>
-    			
-        	<span class="website">
-        		<a target="_blank" href="https://www.facebook.com/Mac-Systems-Group-SCRLta-168661576491011/">https://www.facebook.com/Mac-Systems-Group-SCRLta-168661576491011/</a>
-        	</span>      	<div class="item" id="work-item">
-            <div class="summary">
-              <p><p>Junior developer for Mac System Group, a local company in Lambayeque.</p></p>
-            </div>
-            <ul class="highlights">
-                <li><p>First steps in real projects.</p></li>
-            </ul>
-        	</div>
-        </section>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Volunteer</h2>
-      </header>
-      <section id="volunteer">
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked" />
-            <label for="volunteer-item-0"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Coach
-              </div>
-              <div class="organization">
-                Startup Weekend
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              September 2014
-              </span>
-              <span class="endDate">
-              - September 2014
-              </span>
-            </div>
-          </header>
-          <div class="website">
-            <a target="_blank" href="http://www.up.co/communities/peru/ica/startup-weekend/3763">http://www.up.co/communities/peru/ica/startup-weekend/3763</a>
-          </div>
-          <div class="item">
-            <div class="summary">
-              <p><p>Startup Weekends are weekend-long, hands-on experiences where entrepreneurs and aspiring entrepreneurs can find out if startup ideas are viable. On average, half of Startup Weekend’s attendees have technical or design backgrounds, the other half have business backgrounds.  Beginning with open mic pitches on Friday, attendees bring their best ideas and inspire others to join their team. Over Saturday and Sunday teams focus on customer development, validating their ideas, practicing LEAN Startup Methodologies and building a minimal viable product. On Sunday evening teams demo their prototypes and receive valuable feedback from a panel of experts.</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-1" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-1"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Teacher
-              </div>
-              <div class="organization">
-                hack Space
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              June 2015
-              </span>
-              <span class="endDate">
-              - June 2015
-              </span>
-            </div>
-          </header>
-          <div class="website">
-            <a target="_blank" href="https://www.facebook.com/media/set/?set&#x3D;a.1010950065581848.1073741857.854008687942654&amp;type&#x3D;3">https://www.facebook.com/media/set/?set&#x3D;a.1010950065581848.1073741857.854008687942654&amp;type&#x3D;3</a>
-          </div>
-          <div class="item">
-            <div class="summary">
-              <p><p>Taught the course, "Web Fundamentals and Javascript for Everyone" at University Pedro Ruiz Gallo as a programming teacher for half a semester.</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-2" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-2"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Speaker
-              </div>
-              <div class="organization">
-                FLISOL 2013
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              May 2013
-              </span>
-              <span class="endDate">
-              - May 2013
-              </span>
-            </div>
-          </header>
-          <div class="website">
-            <a target="_blank" href="https://www.facebook.com/flisolLambayeque/photos/a.550858391631871.1073741826.176772925707088/550867084964335/?type&#x3D;3&amp;theater">https://www.facebook.com/flisolLambayeque/photos/a.550858391631871.1073741826.176772925707088/550867084964335/?type&#x3D;3&amp;theater</a>
-          </div>
-          <div class="item">
-            <div class="summary">
-              <p><p>Public speaker invitation for the Flisol Conference, to lecture about MongoDB and no-sql databases.</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-3" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-3"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                President
-              </div>
-              <div class="organization">
-                CADIS-UNPRG
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              March 2013
-              </span>
-              <span class="endDate">
-              - March 2014
-              </span>
-            </div>
-          </header>
-          <div class="website">
-            <a target="_blank" href="https://www.facebook.com/CADIS.UNPRG">https://www.facebook.com/CADIS.UNPRG</a>
-          </div>
-          <div class="item">
-            <div class="summary">
-              <p><p>CADIS is a internal organization dedicated to investigation of many topics subjects for Ti/Software students</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-4" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-4"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Speaker
-              </div>
-              <div class="organization">
-                UNASAM
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              November 2013
-              </span>
-              <span class="endDate">
-              - November 2013
-              </span>
-            </div>
-          </header>
-          <div class="item">
-            <div class="summary">
-              <p><p>I talked about html5 and its features, this event was realized during Engineering faculty anniversary of UNSAM</p></p>
-            </div>
-            <ul class="highlights">
-              <li><p>Few photos: https://www.facebook.com/photo.php?fbid=690816484263805&set=a.462104847134971.110808.100000063796163&type=3&theater</p></li>
-              <li><p>Huaráz is a nice place.</p></li>
-            </ul>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-5" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-5"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Speaker
-              </div>
-              <div class="organization">
-                USAT
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              November 2013
-              </span>
-              <span class="endDate">
-              - November 2013
-              </span>
-            </div>
-          </header>
-          <div class="website">
-            <a target="_blank" href="https://www.facebook.com/photo.php?fbid&#x3D;521289761216479&amp;set&#x3D;a.462104847134971.110808.100000063796163&amp;type&#x3D;3&amp;theater">https://www.facebook.com/photo.php?fbid&#x3D;521289761216479&amp;set&#x3D;a.462104847134971.110808.100000063796163&amp;type&#x3D;3&amp;theater</a>
-          </div>
-          <div class="item">
-            <div class="summary">
-              <p><p>Lecture about bootstrap framework and less preprocessor</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-6" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-6"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Instructor
-              </div>
-              <div class="organization">
-                INTERSYS-UNPRG
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              November 2012
-              </span>
-              <span class="endDate">
-              - November 2012
-              </span>
-            </div>
-          </header>
-          <div class="website">
-            <a target="_blank" href="https://www.facebook.com/Intersys.unprg/photos/pb.237361496310516.-2207520000.1449485655./449464925100171/?type&#x3D;3&amp;theater">https://www.facebook.com/Intersys.unprg/photos/pb.237361496310516.-2207520000.1449485655./449464925100171/?type&#x3D;3&amp;theater</a>
-          </div>
-          <div class="item">
-            <div class="summary">
-              <p><p>workshop "creación de diapositivas con html5"</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-7" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-7"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Teacher
-              </div>
-              <div class="organization">
-                CADIS-UNPRG
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              July 2012
-              </span>
-              <span class="endDate">
-              - July 2012
-              </span>
-            </div>
-          </header>
-          <div class="item">
-            <div class="summary">
-              <p><p>course about html5 y css3</p></p>
-            </div>
-            <ul class="highlights">
-              <li><p>few photos: https://www.facebook.com/photo.php?fbid=462105187134937&set=a.462104847134971.110808.100000063796163&type=3&theater</p></li>
-            </ul>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-8" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-8"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                SPEAKER
-              </div>
-              <div class="organization">
-                FLISOL - ICA 2014
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              April 2014
-              </span>
-              <span class="endDate">
-              - April 2014
-              </span>
-            </div>
-          </header>
-          <div class="item">
-            <div class="summary">
-              <p><p>I talked about ruby and ruby on rails, and how to start with rvm.</p></p>
-            </div>
-            <ul class="highlights">
-              <li><p>photos: https://www.facebook.com/devacademyla/photos/a.498644203569333.1073741856.316005858499836/498647610235659/?type=3&theater</p></li>
-            </ul>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-9" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-9"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Guest host
-              </div>
-              <div class="organization">
-                DevAcademy
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              April 2015
-              </span>
-              <span class="endDate">
-              - April 2015
-              </span>
-            </div>
-          </header>
-          <div class="website">
-            <a target="_blank" href="https://www.facebook.com/devacademyla/photos/pb.316005858499836.-2207520000.1449486341./645566912210394/?type&#x3D;3&amp;theater">https://www.facebook.com/devacademyla/photos/pb.316005858499836.-2207520000.1449486341./645566912210394/?type&#x3D;3&amp;theater</a>
-          </div>
-          <div class="item">
-            <div class="summary">
-              <p><p>"javascript para todo"</p></p>
-            </div>
-          </div>
-        </section>
-        <section class="volunteer-item">
-    
-            <input id="volunteer-item-10" type="checkbox" class="toggle-item" />
-            <label for="volunteer-item-10"></label>
-    
-          <header>
-            <div class="header-left">
-              <div class="position">
-                Coach
-              </div>
-              <div class="organization">
-                Startup CIX
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              February 2014
-              </span>
-              <span class="endDate">
-              - February 2014
-              </span>
-            </div>
-          </header>
-          <div class="website">
-            <a target="_blank" href="https://www.facebook.com/startupchiclayo/">https://www.facebook.com/startupchiclayo/</a>
-          </div>
-          <div class="item">
-            <div class="summary">
-              <p><p>Advisor for entrepreneurs to take the proper steps towards building their business. I would guide the clients with support teams to help develop their apps and companies. </p></p>
-            </div>
-          </div>
-        </section>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
-      </header>
-    
-      <section id="education">
-        <section class="education-item">
-          <header>
-            <div class="header-left">
-              <div class="studyType">
-                4 year
-              </div>
-              <div class="area">
-                Ingeniería de Sistemas
-              </div>
-              <div class="institution">
-                Universidad Nacional Pedro Ruíz Gallo
-              </div>
-            </div>
-            <div class="date">
-              <span class="startDate">
-              2009
-              </span>
-              <span class="endDate">
-              - 2013
-              </span>
-            </div>
-          </header>
-    
-    
-    
-          <div class="item">
-          </div>
-        </section>
-      </section>
-    </section>
-    <section class="section margin1">
-      <header>
-        <h2 class='section-title'>Languages</h2>
-      </header>
-      <section id="languages">
-        <div class="display">
-          <h3 class="language">
-            English
-          </h3>
-          <div class="item">
-            <div class="level fluency fluent speaker">
-              <em>fluent speaker</em>
-              <div class="bar"></div>
-            </div>
-          </div>
-        </div>
-        <div class="display">
-          <h3 class="language">
-            spanish
-          </h3>
-          <div class="item">
-            <div class="level fluency native speaker">
-              <em>native speaker</em>
-              <div class="bar"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-    <section class="section margin1">
-      <header>
-        <h2 class='section-title' class='section-title'>Interests</h2>
-      </header>
-      <section id="interests">
-        <div class="item">
-          <h3 class="name">
-            Web development
-          </h3>
-          <ul class="keywords">
-            <li>es6</li>
-            <li>react</li>
-            <li>angular</li>
-            <li>node.js</li>
-            <li>mongo db</li>
-            <li>firebase</li>
-            <li>ionic</li>
-            <li>ruby on rails</li>
-            <li>Redux</li>
-            <li>MongoDB</li>
-          </ul>
-        </div>
-        <div class="item">
-          <h3 class="name">
-            vegan life
-          </h3>
-          <ul class="keywords">
-            <li>healty life</li>
-          </ul>
-        </div>
-      </section>
-    </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>References</h2>
-      </header>
-      <section id="references">
-        <div class="item">
-          <blockquote class="reference">
-            &#8220;&#32;http://username.github.io&#32;&#8221;
-          </blockquote>
-          <div class="name">
-            CV web version
-          </div>
-        </div>
-      </section>
-    </section>
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px; }
+  .info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag-container .fa.fa-map-marker {
+      font-size: 16px; }
+    .info-tag-container .fa.fa-mobile {
+      font-size: 18px; }
+    .info-tag-container .fa.fa-envelope-o {
+      font-size: 12px; }
+    .info-tag-container .fa.fa-desktop {
+      font-size: 11px; }
+    .info-tag-container .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag-container .info-text {
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 139px; }
 
-  </body>
+.references-container .fa {
+  font-size: 14px; }
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header pull-left">
+			        <h1>Omar Lozada</h1>
+			        <h2>Full stack developer with 8+ years of experience</h2>
+			    </div>
+			    <div class="profile-pic pull-right">
+			        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEBsxGg57VoyA/profile-displayphoto-shrink_800_800/0/1553336864791?e&#x3D;1665619200&amp;v&#x3D;beta&amp;t&#x3D;dBBIVUclDSfBb_3q-VycwqNeQGrTtcASlcdrQeovMG8" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">1460 Gaylord st.<br/>Denver, CO 80206</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-envelope-o"></i>
+					        
+					                <h6 class="info-text">skeiter97@gmail.com</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-mobile"></i>
+					        
+					                <h6 class="info-text">+51 991 363 083</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-desktop"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="http://skeiter9.github.io" target="_blank">
+					                        skeiter9.github.io <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					                         <div class="info-tag-container">
+					                             <i class="fa fa-twitter"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://twitter.com/skeiter9" target="_blank">
+					                                         skeiter9 <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-github"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://github.com/skeiter9" target="_blank">
+					                                         skeiter9 <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-bitbucket"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://bitbucket.org/skeiter9" target="_blank">
+					                                         skeiter9 <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>                        <div class="info-tag-container">
+					                            <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://www.linkedin.com/in/omarlozadah/" target="_blank">
+					                                        in/omarlozadah <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div></section>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					        <ul class="minimal">
+					                <li>
+					                    <h6>English <em>(fluent speaker)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>spanish <em>(native speaker)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+					    <div class="container interests-container">
+					        <div class="title">
+					            <h3>Interests</h3>
+					            <div class="keyline"></div>
+					        </div>
+					            <section class="item">
+					                    <h4 class="bold">Web development</h4>
+					                    <ul class="minimal">
+					                            <li>es6</li>
+					                            <li>react</li>
+					                            <li>angular</li>
+					                            <li>node.js</li>
+					                            <li>mongo db</li>
+					                            <li>firebase</li>
+					                            <li>ionic</li>
+					                            <li>ruby on rails</li>
+					                            <li>Redux</li>
+					                            <li>MongoDB</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">vegan life</h4>
+					                    <ul class="minimal">
+					                            <li>healty life</li>
+					                    </ul>
+					            </section>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>            <p class="summary">
+					                Hello, 
+					 Let me introduce myself, my name is Omar. Currently, I&#x27;m a remote web Developer for a company based out of Warsaw, Poland, called ITCraftship. I specialize in JavaScript, particularly Full Stack Developer with Node.js and Ruby on Rails. The position I obtain with this company has helped me develop many apps and websites using edge technologies such as: Ionic, Tailwindcss, Angular, React, React Native, Flutter, Firebase, Node, MongoDb, etc. Before this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. 
+					 I&#x27;m 29 and currently located in Chiclayo, Peru. For any further questions about my credentials, I&#x27;m available for video calls and any emails about my skills, personality, and references.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://able.co/" target="_blank">
+					                            Able (USA) <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">09/2021</span>
+					                        <span class="endDate"> - 06/2022</span>
+					                </h5>
+					            </div>
+					            <h4>Full-Stack Software Engineer</h4>
+					
+					            <p class="summary">Full-time remote job as a Full-Stack Software Engineer</p>
+					
+					            <ul>
+					                <li>https://10east.co/ build a platform for a community of private investors (Blitz.js/PostgresSQL/React/TypeScript/SSR)</li>
+					                <li>https://updater.com/ upgrade of the sales platform (RoR/React/Postgres/Redis/TypeScript)</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://itcraftship.com/" target="_blank">
+					                            ITCRAFTSHIP SP. Z O.O. (Poland) <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2020</span>
+					                        <span class="endDate"> - 07/2021</span>
+					                </h5>
+					            </div>
+					            <h4>Full-Stack Software Engineer</h4>
+					
+					            <p class="summary">Full-time remote job as a Full-Stack Software Engineer, web and mobile projects</p>
+					
+					            <ul>
+					                <li>Sundose https://sundose.io/ Sundose is an alternative to outdated mass-produced supplementation (Flutter)</li>
+					                <li>storysurf https://storysurf.app/ Because whatever you’re feeling, there’s a story for that. (Flutter)</li>
+					                <li>Friendly Fire, is a game to play with friends around the world. (React Native / Firebase)</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="http://velocis.us" target="_blank">
+					                            Velocis LLC, (USA) <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">02/2016</span>
+					                        <span class="endDate"> - 03/2020</span>
+					                </h5>
+					            </div>
+					            <h4>JS Team Lead</h4>
+					
+					            <p class="summary">Full-time remote job, web developer, receive tasks/projects through a third party company and complete in a timely manner.</p>
+					
+					            <ul>
+					                <li>Skyrise http://skyriseapp.com/ app to connect entire building and small companies within to help communicate on a single platform if needed.(RoR/PostgresSQL/React)</li>
+					                <li>Aldea http://aldeaapp.com/ app collaborated with skyrise, but used for residences and staff for apartment buildings.(RoR/PostgresSQL/React)</li>
+					                <li>Student Success Academy https://studentsuccess.co/ a platform to help high school students chose a career in their final years.(RoR/PostgresSQL/React)</li>
+					                <li>Nomadic http://nomadic-app.co/ app to help link and connect van travelers.(Ionic/Firebase)</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="http://twitter.com/yetsuPe" target="_blank">
+					                            Yetsu S.A.C <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2013</span>
+					                        <span class="endDate"> - 08/2015</span>
+					                </h5>
+					            </div>
+					            <h4>CTO</h4>
+					
+					            <p class="summary">Co Founder &amp; CTO of Yetsu S.A.C. Our agency helped develop websites for clients. The main focus and objection were to create platforms for clients to their satisfaction. With the diversity of web development from restaurants, hotels, and marketing facebook campaigns for two companies, our agency created a vast of platforms.</p>
+					
+					            <ul>
+					                <li>Development a web with eCommerce focus for XCOREISC(Django)</li>
+					                <li>Enterprise software for CONSAMA.S.A.C.(Django)</li>
+					                <li>I was the instructor of 2 courses for this company and sponsored by PRG. University</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://www.facebook.com/XCOREISC" target="_blank">
+					                            X COREISC <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">05/2015</span>
+					                        <span class="endDate"> - 05/2015</span>
+					                </h5>
+					            </div>
+					            <h4>President</h4>
+					
+					            <p class="summary">Led a large team composed of more than 60 persons for a week-long conference called COREISC, a tech event for computer-science enthusiasts in the north-region of Peru. 
+					 Cheif and team leader that organized the people into 5 groups: marketing (social network), sales (promote and sale the events and tickets), protocol (conference usher, event coordinator, personal assistant), IT (build the website for the conference to purchase tickets on), legal (taxes, legal documents for the conference, and official/legal invitations).</p>
+					
+					            <ul>
+					                <li>+500 attenders</li>
+					                <li>First Event of APEISC(brand&#x27;s owner) with online payments(paypal and credit cards)</li>
+					                <li>New sub events created like battle of startups, ignites, hackaton, etc.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="http://www.apeisc.org/" target="_blank">
+					                            APEISC <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">11/2011</span>
+					                        <span class="endDate"> - 08/2014</span>
+					                </h5>
+					            </div>
+					            <h4>UNPRG Represent (Student Representative)</h4>
+					
+					            <p class="summary">APEISC (currently known as APECIT), is the largest and official community for all students of Software Engineering and computer-science in Peru. Once a year an immense amount of Universities from around the country would choose two students to represent them. 
+					 This organization was given certain responsibilities to contribute to the computer science community in the country and help promote events and activities to encourage college students to keep growing up in their tech careers.</p>
+					
+					            <ul>
+					                <li>Senior Associate 2013 -2014</li>
+					                <li>Associate 2014</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://www.facebook.com/media/set/?set&#x3D;a.163394703820870.1073741828.112843935542614&amp;type&#x3D;3" target="_blank">
+					                            YETSU S.A.C. &amp; UNPRG <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">04/2013</span>
+					                        <span class="endDate"> - 05/2013</span>
+					                </h5>
+					            </div>
+					            <h4>Teacher</h4>
+					
+					            <p class="summary">Course about web development realized at UNPRG </p>
+					
+					            <ul>
+					                <li>Syllabus https://github.com/YetsuPe/yetsu-Template/blob/v1.0/curso/Diplomado--Desarrollo-de-Aplicaciones-Web-Yetsu-UNPRG-2013.pdf</li>
+					                <li>Photos: https://www.facebook.com/media/set/?set&#x3D;a.163394703820870.1073741828.112843935542614&amp;type&#x3D;3</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        YETSU S.A.C. &amp; UNPRG
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">11/2013</span>
+					                        <span class="endDate"> - 12/2013</span>
+					                </h5>
+					            </div>
+					            <h4>Teacher</h4>
+					
+					            <p class="summary">Second course, this course had frontend technologies as main aim</p>
+					
+					            <ul>
+					                <li>Examples and material https://github.com/YetsuPe</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://www.facebook.com/Mac-Systems-Group-SCRLta-168661576491011/" target="_blank">
+					                            Mac Systems Group S.C.R.Lta. <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">02/2010</span>
+					                        <span class="endDate"> - 06/2011</span>
+					                </h5>
+					            </div>
+					            <h4>Junior Developer</h4>
+					
+					            <p class="summary">Junior developer for Mac System Group, a local company in Lambayeque.</p>
+					
+					            <ul>
+					                <li>First steps in real projects.</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container volunteer-container">
+					    <div class="title">
+					        <h3>Volunteer</h3>
+					        <div class="keyline"></div>
+					    </div>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="http://www.up.co/communities/peru/ica/startup-weekend/3763" target="_blank">
+					                        Startup Weekend <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">09/2014</span>
+					                    <span class="endDate"> - 09/2014</span>
+					            </h5>
+					        </div>        <h5>Coach</h5>
+					
+					        <p class="summary">Startup Weekends are weekend-long, hands-on experiences where entrepreneurs and aspiring entrepreneurs can find out if startup ideas are viable. On average, half of Startup Weekend’s attendees have technical or design backgrounds, the other half have business backgrounds.  Beginning with open mic pitches on Friday, attendees bring their best ideas and inspire others to join their team. Over Saturday and Sunday teams focus on customer development, validating their ideas, practicing LEAN Startup Methodologies and building a minimal viable product. On Sunday evening teams demo their prototypes and receive valuable feedback from a panel of experts.</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.facebook.com/media/set/?set&#x3D;a.1010950065581848.1073741857.854008687942654&amp;type&#x3D;3" target="_blank">
+					                        hack Space <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">06/2015</span>
+					                    <span class="endDate"> - 06/2015</span>
+					            </h5>
+					        </div>        <h5>Teacher</h5>
+					
+					        <p class="summary">Taught the course, &quot;Web Fundamentals and Javascript for Everyone&quot; at University Pedro Ruiz Gallo as a programming teacher for half a semester.</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.facebook.com/flisolLambayeque/photos/a.550858391631871.1073741826.176772925707088/550867084964335/?type&#x3D;3&amp;theater" target="_blank">
+					                        FLISOL 2013 <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">05/2013</span>
+					                    <span class="endDate"> - 05/2013</span>
+					            </h5>
+					        </div>        <h5>Speaker</h5>
+					
+					        <p class="summary">Public speaker invitation for the Flisol Conference, to lecture about MongoDB and no-sql databases.</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.facebook.com/CADIS.UNPRG" target="_blank">
+					                        CADIS-UNPRG <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">03/2013</span>
+					                    <span class="endDate"> - 03/2014</span>
+					            </h5>
+					        </div>        <h5>President</h5>
+					
+					        <p class="summary">CADIS is a internal organization dedicated to investigation of many topics subjects for Ti/Software students</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    UNASAM
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">11/2013</span>
+					                    <span class="endDate"> - 11/2013</span>
+					            </h5>
+					        </div>        <h5>Speaker</h5>
+					
+					        <p class="summary">I talked about html5 and its features, this event was realized during Engineering faculty anniversary of UNSAM</p>
+					
+					        <ul>
+					            <li>Few photos: https://www.facebook.com/photo.php?fbid&#x3D;690816484263805&amp;set&#x3D;a.462104847134971.110808.100000063796163&amp;type&#x3D;3&amp;theater</li>
+					            <li>Huaráz is a nice place.</li>
+					        </ul>
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.facebook.com/photo.php?fbid&#x3D;521289761216479&amp;set&#x3D;a.462104847134971.110808.100000063796163&amp;type&#x3D;3&amp;theater" target="_blank">
+					                        USAT <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">11/2013</span>
+					                    <span class="endDate"> - 11/2013</span>
+					            </h5>
+					        </div>        <h5>Speaker</h5>
+					
+					        <p class="summary">Lecture about bootstrap framework and less preprocessor</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.facebook.com/Intersys.unprg/photos/pb.237361496310516.-2207520000.1449485655./449464925100171/?type&#x3D;3&amp;theater" target="_blank">
+					                        INTERSYS-UNPRG <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">11/2012</span>
+					                    <span class="endDate"> - 11/2012</span>
+					            </h5>
+					        </div>        <h5>Instructor</h5>
+					
+					        <p class="summary">workshop &quot;creación de diapositivas con html5&quot;</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    CADIS-UNPRG
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">07/2012</span>
+					                    <span class="endDate"> - 07/2012</span>
+					            </h5>
+					        </div>        <h5>Teacher</h5>
+					
+					        <p class="summary">course about html5 y css3</p>
+					
+					        <ul>
+					            <li>few photos: https://www.facebook.com/photo.php?fbid&#x3D;462105187134937&amp;set&#x3D;a.462104847134971.110808.100000063796163&amp;type&#x3D;3&amp;theater</li>
+					        </ul>
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    FLISOL - ICA 2014
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">04/2014</span>
+					                    <span class="endDate"> - 04/2014</span>
+					            </h5>
+					        </div>        <h5>SPEAKER</h5>
+					
+					        <p class="summary">I talked about ruby and ruby on rails, and how to start with rvm.</p>
+					
+					        <ul>
+					            <li>photos: https://www.facebook.com/devacademyla/photos/a.498644203569333.1073741856.316005858499836/498647610235659/?type&#x3D;3&amp;theater</li>
+					        </ul>
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.facebook.com/devacademyla/photos/pb.316005858499836.-2207520000.1449486341./645566912210394/?type&#x3D;3&amp;theater" target="_blank">
+					                        DevAcademy <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">04/2015</span>
+					                    <span class="endDate"> - 04/2015</span>
+					            </h5>
+					        </div>        <h5>Guest host</h5>
+					
+					        <p class="summary">&quot;javascript para todo&quot;</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.facebook.com/startupchiclayo/" target="_blank">
+					                        Startup CIX <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">02/2014</span>
+					                    <span class="endDate"> - 02/2014</span>
+					            </h5>
+					        </div>        <h5>Coach</h5>
+					
+					        <p class="summary">Advisor for entrepreneurs to take the proper steps towards building their business. I would guide the clients with support teams to help develop their apps and companies. </p>
+					
+					    </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Universidad Nacional Pedro Ruíz Gallo
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">04/2009</span>
+					                        <span class="endDate"> - 05/2013</span>
+					                </h5>
+					            </div>
+					            <h4>4 year Ingeniería de Sistemas</h4>
+					
+					
+					        </section>
+					</div>
+					<div class="container references-container">
+					    <div class="title">
+					        <h3>References</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item clearfix">
+					            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+					            <blockquote>
+					                Omar joined Velocis and our remote team as a very green junior developer. I&#x27;ve been very impressed with how he has pushed himself to progress over the years and how his skills have improved. Omar is also the most loyal employee that I&#x27;ve ever worked with and this is a quality I value immensely. I would recommend Omar for any developer role that will continue to support his growth.
+					            </blockquote>
+					
+					            <h5 class="pull-right"> — Bradley Joyce, CEO Velocis LLC</h5>
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>

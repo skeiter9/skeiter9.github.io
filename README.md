@@ -1,4 +1,12 @@
-#Resume
+# Install
+
 ```
-resume export resume.pdf --theme stackoverflow
+npm install
+```
+
+## Generate Resume
+
+```
+npx resume export resume.pdf --theme stackoverflow
+npx resume export index.html --theme stackoverflow
 ```
