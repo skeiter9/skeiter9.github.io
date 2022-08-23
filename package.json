@@ -6,6 +6,6 @@
 	},
 	"dependencies": {
 		"jsonresume-theme-caffeine": "1.2.3",
-		"resume-cli": "3.0.0"
+		"resume-cli": "3.0.7"
 	}
 }

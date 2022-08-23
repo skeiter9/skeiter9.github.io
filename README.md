@@ -1,4 +1,3 @@
-# My CV ;)
 
 # Install
 
