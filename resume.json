@@ -1,18 +1,18 @@
 {
 	"basics": {
 		"name": "Omar Lozada",
-		"label": "Full stack developer with 8+ years of experience",
-		"email": "skeiter97@gmail.com",
-		"picture": "https://media-exp1.licdn.com/dms/image/C4D03AQEBsxGg57VoyA/profile-displayphoto-shrink_800_800/0/1553336864791?e=1665619200&v=beta&t=dBBIVUclDSfBb_3q-VycwqNeQGrTtcASlcdrQeovMG8",
+		"label": "Full stack developer with 10+ years of experience",
+		"email": "omarlozadah@gmail.com",
+		"picture": "https://media.licdn.com/dms/image/v2/C4D03AQEBsxGg57VoyA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1553336868069?e=1776297600&v=beta&t=7mDa7BY62RZXiGXWh8H0y-OixAVUpOobA-hjjqCAs6w",
 		"phone": "+51 991 363 083",
 		"website": "http://skeiter9.github.io",
-		"summary": "Hello, my name is Omar.\nI'm a Full-Stack Developer with Node.js and Ruby on Rails. I built a few apps and websites using edge technologies such as Ionic, Tailwindcss, Angular, React, React Native, Flutter, Typescript, Firebase, Node, MongoDb, etc. \nBefore this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. I'm 29 and currently located in Chiclayo, Peru. For any further questions about my credentials, I'm available for a call or email, thank you.",
+		"summary": "Hello, my name is Omar.\nI'm a Full-Stack Developer with Node.js and Ruby on Rails. I built a few apps and websites using edge technologies such as Ionic, Tailwindcss, Angular, React, React Native, Flutter, Typescript, Firebase, Node, MongoDb, etc. \nBefore this experience, I built my own tech company in Peru an agency that helped clients build versatile platforms for their businesses. For any further questions about my credentials, I'm available for a call or email, thank you.",
 		"location": {
-			"address": "1460 Gaylord st.",
-			"postalCode": "80206",
-			"city": "Denver",
-			"countryCode": "US",
-			"region": "CO"
+			"address": "Nuevo Mocce Mz J lote 27",
+			"postalCode": "14013",
+			"city": "Lambayeque",
+			"countryCode": "PE",
+			"region": "LAM"
 		},
 		"profiles": [
 			{
@@ -39,7 +39,25 @@
 	},
 	"work": [
 		{
-			"company": "Able (USA)",
+			"position": "Full-Stack Software Engineer",
+			"website": "",
+			"startDate": "2025-12-10",
+			"endDate": "",
+			"summary": "Full-time remote job as a Lead Software Engineer",
+			"name": "Burbase Corp (Peru)"
+		},
+		{
+			"position": "Lead Software Engineer",
+			"website": "https://studentsuccess.co/",
+			"startDate": "2022-09-17",
+			"endDate": "2025-11-10",
+			"summary": "Full-time remote job as a Lead Software Engineer",
+			"highlights": [
+				"https://apps.apple.com/us/app/the-winbox/id6443660449 The Winbox"
+			],
+			"name": "Student Success Agency (USA)"
+		},
+		{
 			"position": "Full-Stack Software Engineer",
 			"website": "https://able.co/",
 			"startDate": "2021-09-17",
@@ -48,10 +66,10 @@
 			"highlights": [
 				"https://10east.co/ build a platform for a community of private investors (Blitz.js/PostgresSQL/React/TypeScript/SSR)",
 				"https://updater.com/ upgrade of the sales platform (RoR/React/Postgres/Redis/TypeScript)"
-			]
+			],
+			"name": "Able (USA)"
 		},
 		{
-			"company": "ITCRAFTSHIP SP. Z O.O. (Poland)",
 			"position": "Full-Stack Software Engineer",
 			"website": "https://itcraftship.com/",
 			"startDate": "2020-06-10",
@@ -61,10 +79,10 @@
 				"Sundose https://sundose.io/ Sundose is an alternative to outdated mass-produced supplementation (Flutter)",
 				"storysurf https://storysurf.app/ Because whatever you’re feeling, there’s a story for that. (Flutter)",
 				"Friendly Fire, is a game to play with friends around the world. (React Native / Firebase)"
-			]
+			],
+			"name": "ITCRAFTSHIP SP. Z O.O. (Poland)"
 		},
 		{
-			"company": "Velocis LLC, (USA)",
 			"position": "JS Team Lead",
 			"website": "http://velocis.us",
 			"startDate": "2016-02-04",
@@ -75,10 +93,10 @@
 				"Aldea http://aldeaapp.com/ app collaborated with skyrise, but used for residences and staff for apartment buildings.(RoR/PostgresSQL/React)",
 				"Student Success Academy https://studentsuccess.co/ a platform to help high school students chose a career in their final years.(RoR/PostgresSQL/React)",
 				"Nomadic http://nomadic-app.co/ app to help link and connect van travelers.(Ionic/Firebase)"
-			]
+			],
+			"name": "Velocis LLC, (USA)"
 		},
 		{
-			"company": "Yetsu S.A.C",
 			"position": "CTO",
 			"website": "http://twitter.com/yetsuPe",
 			"startDate": "2013-06-12",
@@ -88,10 +106,10 @@
 				"Development a web with eCommerce focus for XCOREISC(Django)",
 				"Enterprise software for CONSAMA.S.A.C.(Django)",
 				"I was the instructor of 2 courses for this company and sponsored by PRG. University"
-			]
+			],
+			"name": "Yetsu S.A.C"
 		},
 		{
-			"company": "X COREISC",
 			"position": "President",
 			"website": "https://www.facebook.com/XCOREISC",
 			"startDate": "2015-05-19",
@@ -101,19 +119,22 @@
 				"+500 attenders",
 				"First Event of APEISC(brand's owner) with online payments(paypal and credit cards)",
 				"New sub events created like battle of startups, ignites, hackaton, etc."
-			]
+			],
+			"name": "X COREISC"
 		},
 		{
-			"company": "APEISC",
 			"position": "UNPRG Represent (Student Representative)",
 			"website": "http://www.apeisc.org/",
 			"startDate": "2011-11-10",
 			"endDate": "2014-08-12",
 			"summary": "APEISC (currently known as APECIT), is the largest and official community for all students of Software Engineering and computer-science in Peru. Once a year an immense amount of Universities from around the country would choose two students to represent them. \n This organization was given certain responsibilities to contribute to the computer science community in the country and help promote events and activities to encourage college students to keep growing up in their tech careers.",
-			"highlights": ["Senior Associate 2013 -2014", "Associate 2014"]
+			"highlights": [
+				"Senior Associate 2013 -2014",
+				"Associate 2014"
+			],
+			"name": "APEISC"
 		},
 		{
-			"company": "YETSU S.A.C. & UNPRG",
 			"position": "Teacher",
 			"website": "https://www.facebook.com/media/set/?set=a.163394703820870.1073741828.112843935542614&type=3",
 			"startDate": "2013-04-06",
@@ -122,25 +143,30 @@
 			"highlights": [
 				"Syllabus https://github.com/YetsuPe/yetsu-Template/blob/v1.0/curso/Diplomado--Desarrollo-de-Aplicaciones-Web-Yetsu-UNPRG-2013.pdf",
 				"Photos: https://www.facebook.com/media/set/?set=a.163394703820870.1073741828.112843935542614&type=3"
-			]
+			],
+			"name": "YETSU S.A.C. & UNPRG"
 		},
 		{
-			"company": "YETSU S.A.C. & UNPRG",
 			"position": "Teacher",
 			"website": "",
 			"startDate": "2013-11-02",
 			"endDate": "2013-12-08",
 			"summary": "Second course, this course had frontend technologies as main aim",
-			"highlights": ["Examples and material https://github.com/YetsuPe"]
+			"highlights": [
+				"Examples and material https://github.com/YetsuPe"
+			],
+			"name": "YETSU S.A.C. & UNPRG"
 		},
 		{
-			"company": "Mac Systems Group S.C.R.Lta.",
 			"position": "Junior Developer",
 			"website": "https://www.facebook.com/Mac-Systems-Group-SCRLta-168661576491011/",
 			"startDate": "2010-02-15",
 			"endDate": "2011-06-13",
 			"summary": "Junior developer for Mac System Group, a local company in Lambayeque.",
-			"highlights": ["First steps in real projects."]
+			"highlights": [
+				"First steps in real projects."
+			],
+			"name": "Mac Systems Group S.C.R.Lta."
 		}
 	],
 	"volunteer": [
@@ -289,10 +315,6 @@
 				"Redux",
 				"MongoDB"
 			]
-		},
-		{
-			"name": "vegan life",
-			"keywords": ["healty life"]
 		}
 	],
 	"references": [

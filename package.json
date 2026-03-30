@@ -1,11 +1,17 @@
 {
 	"scripts": {
-		"build-pdf": "resume export resume.pdf --theme caffeine",
-		"build-web": "resume export index.html --theme caffeine",
-		"build": "npm run build-pdf && npm run build-web"
+		"build-pdf:en": "node build-pdf.js resume.json jsonresume-theme-dev-ats final_resumes/resume-en.pdf",
+		"build-pdf:es": "node build-pdf.js resume-es.json jsonresume-theme-dev-ats-es final_resumes/resume-es.pdf",
+		"build-pdf": "yarn build-pdf:en && yarn build-pdf:es",
+		"build-web:en": "resumed render -r resume.json --theme jsonresume-theme-dev-ats -o index.html",
+		"build-web:es": "resumed render -r resume-es.json --theme jsonresume-theme-dev-ats-es -o index-es.html",
+		"build-web": "yarn build-web:en && yarn build-web:es",
+		"build": "yarn build-web && yarn build-pdf"
 	},
 	"dependencies": {
-		"jsonresume-theme-caffeine": "1.2.3",
-		"resume-cli": "3.0.7"
+		"jsonresume-theme-dev-ats": "^1.0.1",
+		"jsonresume-theme-dev-ats-es": "^1.0.3",
+		"puppeteer": "^24.40.0",
+		"resumed": "^3.0.0"
 	}
 }

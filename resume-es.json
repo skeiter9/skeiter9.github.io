@@ -1,0 +1,326 @@
+{
+	"basics": {
+		"name": "Omar Lozada",
+		"label": "Desarrollador Full Stack",
+		"email": "omarlozadah@gmail.com",
+		"picture": "https://media.licdn.com/dms/image/v2/C4D03AQEBsxGg57VoyA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1553336868069?e=1776297600&v=beta&t=7mDa7BY62RZXiGXWh8H0y-OixAVUpOobA-hjjqCAs6w",
+		"phone": "+51 991 363 083",
+		"website": "http://skeiter9.github.io",
+		"summary": "Hola, mi nombre es Omar.\nSoy un Desarrollador Full-Stack con Node.js y Ruby on Rails. He construido varias aplicaciones y sitios web utilizando tecnologías de vanguardia como Ionic, Tailwindcss, Angular, React, React Native, Flutter, Typescript, Firebase, Node, MongoDB, etc.\nAntes de esta experiencia, fundé mi propia empresa de tecnología en Perú, una agencia que ayudó a clientes a construir plataformas versátiles para sus negocios. Para cualquier consulta adicional sobre mis credenciales",
+		"location": {
+			"address": "Nuevo Mocce Mz J lote 27",
+			"postalCode": "14013",
+			"city": "Lambayeque",
+			"countryCode": "PE",
+			"region": "LAM"
+		},
+		"profiles": [
+			{
+				"network": "Twitter",
+				"username": "skeiter9",
+				"url": "https://twitter.com/skeiter9"
+			},
+			{
+				"network": "github",
+				"username": "skeiter9",
+				"url": "https://github.com/skeiter9"
+			},
+			{
+				"network": "bitbucket",
+				"username": "skeiter9",
+				"url": "https://bitbucket.org/skeiter9"
+			},
+			{
+				"network": "linkedin",
+				"username": "omarlozadah",
+				"url": "https://www.linkedin.com/in/omarlozadah/"
+			}
+		]
+	},
+	"work": [
+		{
+			"position": "Desarrollador de Software Full-Stack",
+			"website": "",
+			"startDate": "2025-12-10",
+			"endDate": "",
+			"summary": "Trabajo remoto a tiempo completo como Desarrollador de Software Líder",
+			"name": "Burbase Corp (Perú)"
+		},
+		{
+			"position": "Desarrollador de Software Líder",
+			"website": "https://studentsuccess.co/",
+			"startDate": "2022-09-17",
+			"endDate": "2025-11-10",
+			"summary": "Trabajo remoto a tiempo completo como Desarrollador de Software Líder",
+			"highlights": [
+				"https://apps.apple.com/us/app/the-winbox/id6443660449 The Winbox"
+			],
+			"name": "Student Success Agency (EE.UU.)"
+		},
+		{
+			"position": "Desarrollador de Software Full-Stack",
+			"website": "https://able.co/",
+			"startDate": "2021-09-17",
+			"endDate": "2022-06-17",
+			"summary": "Trabajo remoto a tiempo completo como Desarrollador de Software Full-Stack",
+			"highlights": [
+				"https://10east.co/ construcción de una plataforma para una comunidad de inversionistas privados (Blitz.js/PostgresSQL/React/TypeScript/SSR)",
+				"https://updater.com/ actualización de la plataforma de ventas (RoR/React/Postgres/Redis/TypeScript)"
+			],
+			"name": "Able (EE.UU.)"
+		},
+		{
+			"position": "Desarrollador de Software Full-Stack",
+			"website": "https://itcraftship.com/",
+			"startDate": "2020-06-10",
+			"endDate": "2021-07-15",
+			"summary": "Trabajo remoto a tiempo completo como Desarrollador de Software Full-Stack, proyectos web y móviles",
+			"highlights": [
+				"Sundose https://sundose.io/ Sundose es una alternativa a la suplementación masiva obsoleta (Flutter)",
+				"storysurf https://storysurf.app/ Porque sin importar lo que sientas, hay una historia para eso. (Flutter)",
+				"Friendly Fire, es un juego para jugar con amigos alrededor del mundo. (React Native / Firebase)"
+			],
+			"name": "ITCRAFTSHIP SP. Z O.O. (Polonia)"
+		},
+		{
+			"position": "Líder de Equipo JS",
+			"website": "http://velocis.us",
+			"startDate": "2016-02-04",
+			"endDate": "2020-03-18",
+			"summary": "Trabajo remoto a tiempo completo, desarrollador web, recibía tareas/proyectos a través de una empresa tercera y los completaba de manera oportuna.",
+			"highlights": [
+				"Skyrise http://skyriseapp.com/ aplicación para conectar edificios completos y pequeñas empresas dentro de ellos para comunicarse en una sola plataforma. (RoR/PostgresSQL/React)",
+				"Aldea http://aldeaapp.com/ aplicación que colaboraba con Skyrise, usada para residencias y personal de edificios de apartamentos. (RoR/PostgresSQL/React)",
+				"Student Success Academy https://studentsuccess.co/ plataforma para ayudar a estudiantes de secundaria a elegir una carrera en sus últimos años. (RoR/PostgresSQL/React)",
+				"Nomadic http://nomadic-app.co/ aplicación para vincular y conectar viajeros en van. (Ionic/Firebase)"
+			],
+			"name": "Velocis LLC (EE.UU.)"
+		},
+		{
+			"position": "Director de Tecnología (CTO)",
+			"website": "http://twitter.com/yetsuPe",
+			"startDate": "2013-06-12",
+			"endDate": "2015-08-10",
+			"summary": "Cofundador y CTO de Yetsu S.A.C. Nuestra agencia ayudó a desarrollar sitios web para clientes. El enfoque principal era crear plataformas para clientes a su satisfacción. Con la diversidad del desarrollo web desde restaurantes, hoteles y campañas de marketing en Facebook para dos empresas, nuestra agencia creó una gran variedad de plataformas.",
+			"highlights": [
+				"Desarrollo de una web con enfoque en eCommerce para XCOREISC (Django)",
+				"Software empresarial para CONSAMA S.A.C. (Django)",
+				"Fui instructor de 2 cursos para esta empresa, patrocinados por la Universidad PRG"
+			],
+			"name": "Yetsu S.A.C"
+		},
+		{
+			"position": "Presidente",
+			"website": "https://www.facebook.com/XCOREISC",
+			"startDate": "2015-05-19",
+			"endDate": "2015-05-23",
+			"summary": "Lideré un equipo grande compuesto por más de 60 personas para una conferencia de una semana llamada COREISC, un evento tecnológico para entusiastas de la informática en la región norte de Perú.\nJefe y líder de equipo que organizó a las personas en 5 grupos: marketing (redes sociales), ventas (promover y vender los eventos y entradas), protocolo (ujieres de conferencia, coordinadores de eventos, asistentes personales), TI (construcción del sitio web de la conferencia para la compra de entradas) y legal (impuestos, documentos legales para la conferencia e invitaciones oficiales/legales).",
+			"highlights": [
+				"+500 asistentes",
+				"Primer evento de APEISC (propietaria de la marca) con pagos en línea (PayPal y tarjetas de crédito)",
+				"Nuevos sub-eventos creados como batalla de startups, ignites, hackatón, etc."
+			],
+			"name": "X COREISC"
+		},
+		{
+			"position": "Representante de la UNPRG (Representante Estudiantil)",
+			"website": "http://www.apeisc.org/",
+			"startDate": "2011-11-10",
+			"endDate": "2014-08-12",
+			"summary": "APEISC (actualmente conocida como APECIT), es la comunidad más grande y oficial para todos los estudiantes de Ingeniería de Software e Informática en Perú. Una vez al año, una gran cantidad de universidades del país elegían a dos estudiantes para representarlas.\nEsta organización tenía ciertas responsabilidades para contribuir a la comunidad de informática del país y ayudar a promover eventos y actividades para motivar a los estudiantes universitarios a seguir creciendo en sus carreras tecnológicas.",
+			"highlights": [
+				"Asociado Senior 2013-2014",
+				"Asociado 2014"
+			],
+			"name": "APEISC"
+		},
+		{
+			"position": "Docente",
+			"website": "https://www.facebook.com/media/set/?set=a.163394703820870.1073741828.112843935542614&type=3",
+			"startDate": "2013-04-06",
+			"endDate": "2013-05-10",
+			"summary": "Curso sobre desarrollo web realizado en la UNPRG",
+			"highlights": [
+				"Sílabo https://github.com/YetsuPe/yetsu-Template/blob/v1.0/curso/Diplomado--Desarrollo-de-Aplicaciones-Web-Yetsu-UNPRG-2013.pdf",
+				"Fotos: https://www.facebook.com/media/set/?set=a.163394703820870.1073741828.112843935542614&type=3"
+			],
+			"name": "YETSU S.A.C. & UNPRG"
+		},
+		{
+			"position": "Docente",
+			"website": "",
+			"startDate": "2013-11-02",
+			"endDate": "2013-12-08",
+			"summary": "Segundo curso, este curso tuvo como objetivo principal las tecnologías frontend",
+			"highlights": [
+				"Ejemplos y material https://github.com/YetsuPe"
+			],
+			"name": "YETSU S.A.C. & UNPRG"
+		},
+		{
+			"position": "Desarrollador Junior",
+			"website": "https://www.facebook.com/Mac-Systems-Group-SCRLta-168661576491011/",
+			"startDate": "2010-02-15",
+			"endDate": "2011-06-13",
+			"summary": "Desarrollador junior para Mac System Group, una empresa local en Lambayeque.",
+			"highlights": [
+				"Primeros pasos en proyectos reales."
+			],
+			"name": "Mac Systems Group S.C.R.Lta."
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "Startup Weekend",
+			"position": "Coach",
+			"website": "http://www.up.co/communities/peru/ica/startup-weekend/3763",
+			"startDate": "2014-09-19",
+			"endDate": "2014-09-21",
+			"summary": "Los Startup Weekends son experiencias prácticas de fin de semana donde emprendedores y aspirantes a emprendedores pueden descubrir si sus ideas de startup son viables. En promedio, la mitad de los asistentes tienen experiencia técnica o de diseño, la otra mitad tiene experiencia en negocios. Comenzando con presentaciones de micrófono abierto el viernes, los asistentes presentan sus mejores ideas e inspiran a otros a unirse a su equipo. Durante el sábado y domingo, los equipos se enfocan en el desarrollo del cliente, validando sus ideas, practicando metodologías Lean Startup y construyendo un producto mínimo viable. El domingo por la noche, los equipos presentan sus prototipos y reciben retroalimentación valiosa de un panel de expertos.",
+			"highlights": []
+		},
+		{
+			"organization": "hack Space",
+			"position": "Docente",
+			"website": "https://www.facebook.com/media/set/?set=a.1010950065581848.1073741857.854008687942654&type=3",
+			"startDate": "2015-06-06",
+			"endDate": "2015-06-20",
+			"summary": "Dicté el curso \"Fundamentos Web y Javascript para Todos\" en la Universidad Pedro Ruiz Gallo como profesor de programación durante medio semestre.",
+			"highlights": []
+		},
+		{
+			"organization": "FLISOL 2013",
+			"position": "Ponente",
+			"website": "https://www.facebook.com/flisolLambayeque/photos/a.550858391631871.1073741826.176772925707088/550867084964335/?type=3&theater",
+			"startDate": "2013-05-03",
+			"endDate": "2013-05-03",
+			"summary": "Invitación como ponente público para la Conferencia Flisol, para dar una charla sobre MongoDB y bases de datos NoSQL.",
+			"highlights": []
+		},
+		{
+			"organization": "CADIS-UNPRG",
+			"position": "Presidente",
+			"website": "https://www.facebook.com/CADIS.UNPRG",
+			"startDate": "2013-03-13",
+			"endDate": "2014-03-13",
+			"summary": "CADIS es una organización interna dedicada a la investigación de diversos temas para estudiantes de TI/Software",
+			"highlights": []
+		},
+		{
+			"organization": "UNASAM",
+			"position": "Ponente",
+			"website": "",
+			"startDate": "2013-11-06",
+			"endDate": "2013-11-07",
+			"summary": "Charla sobre HTML5 y sus características, este evento se realizó durante el aniversario de la Facultad de Ingeniería de la UNASAM",
+			"highlights": [
+				"Algunas fotos: https://www.facebook.com/photo.php?fbid=690816484263805&set=a.462104847134971.110808.100000063796163&type=3&theater",
+				"Huaráz es un lugar hermoso."
+			]
+		},
+		{
+			"organization": "USAT",
+			"position": "Ponente",
+			"website": "https://www.facebook.com/photo.php?fbid=521289761216479&set=a.462104847134971.110808.100000063796163&type=3&theater",
+			"startDate": "2013-11-23",
+			"endDate": "2013-11-26",
+			"summary": "Charla sobre el framework Bootstrap y el preprocesador Less",
+			"highlights": []
+		},
+		{
+			"organization": "INTERSYS-UNPRG",
+			"position": "Instructor",
+			"website": "https://www.facebook.com/Intersys.unprg/photos/pb.237361496310516.-2207520000.1449485655./449464925100171/?type=3&theater",
+			"startDate": "2012-11-05",
+			"endDate": "2012-11-05",
+			"summary": "Taller \"Creación de diapositivas con HTML5\"",
+			"highlights": []
+		},
+		{
+			"organization": "CADIS-UNPRG",
+			"position": "Docente",
+			"website": "",
+			"startDate": "2012-07-02",
+			"endDate": "2012-07-28",
+			"summary": "Curso sobre HTML5 y CSS3",
+			"highlights": [
+				"Algunas fotos: https://www.facebook.com/photo.php?fbid=462105187134937&set=a.462104847134971.110808.100000063796163&type=3&theater"
+			]
+		},
+		{
+			"organization": "FLISOL - ICA 2014",
+			"position": "Ponente",
+			"website": "",
+			"startDate": "2014-04-28",
+			"endDate": "2014-04-28",
+			"summary": "Charla sobre Ruby y Ruby on Rails, y cómo empezar con RVM.",
+			"highlights": [
+				"Fotos: https://www.facebook.com/devacademyla/photos/a.498644203569333.1073741856.316005858499836/498647610235659/?type=3&theater"
+			]
+		},
+		{
+			"organization": "DevAcademy",
+			"position": "Invitado especial",
+			"website": "https://www.facebook.com/devacademyla/photos/pb.316005858499836.-2207520000.1449486341./645566912210394/?type=3&theater",
+			"startDate": "2015-04-22",
+			"endDate": "2015-04-22",
+			"summary": "\"Javascript para todo\"",
+			"highlights": []
+		},
+		{
+			"organization": "Startup CIX",
+			"position": "Coach",
+			"website": "https://www.facebook.com/startupchiclayo/",
+			"startDate": "2014-02-20",
+			"endDate": "2014-02-21",
+			"summary": "Asesor de emprendedores para tomar los pasos adecuados hacia la construcción de sus negocios. Guié a los clientes con equipos de soporte para ayudar a desarrollar sus aplicaciones y empresas.",
+			"highlights": []
+		}
+	],
+	"education": [
+		{
+			"institution": "Universidad Nacional Pedro Ruíz Gallo",
+			"area": "Ingeniería de Sistemas",
+			"studyType": "4 años",
+			"startDate": "2009-04-12",
+			"endDate": "2013-05-20",
+			"gpa": "",
+			"courses": []
+		}
+	],
+	"awards": [],
+	"publications": [],
+	"languages": [
+		{
+			"language": "Inglés",
+			"fluency": "Hablante fluido"
+		},
+		{
+			"language": "Español",
+			"fluency": "Hablante nativo"
+		}
+	],
+	"interests": [
+		{
+			"name": "Desarrollo Web",
+			"keywords": [
+				"es6",
+				"react",
+				"angular",
+				"node.js",
+				"mongo db",
+				"firebase",
+				"ionic",
+				"ruby on rails",
+				"Redux",
+				"MongoDB"
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "Bradley Joyce, CEO Velocis LLC",
+			"reference": "Omar se unió a Velocis y a nuestro equipo remoto como un desarrollador junior muy novato. Me ha impresionado mucho cómo se ha esforzado por progresar a lo largo de los años y cómo han mejorado sus habilidades. Omar también es el empleado más leal con el que he trabajado y esta es una cualidad que valoro inmensamente. Recomendaría a Omar para cualquier puesto de desarrollador que continúe apoyando su crecimiento."
+		}
+	]
+}
